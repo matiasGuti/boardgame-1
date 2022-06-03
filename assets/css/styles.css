@@ -24,7 +24,7 @@ body {
                          "footer";
 }
 
-/* HEADER PART*/
+/* HEADER SECTION*/
 
 header {
     background-color: #1f2937;
@@ -55,7 +55,7 @@ text-decoration: none;
 color: inherit;
 }
 
-/* Main part*/
+/* MAIN SECTION*/
 
 main {
     width: 65%;
@@ -101,6 +101,7 @@ main {
     margin: 0;
     font-size: 18px;
     color: #e5e7eb;
+    line-height: 25px;
 }
 
 .content .sign-up {
@@ -112,10 +113,10 @@ main {
     border-radius: 4px;
 }
 
-/*Meet us part*/
+/*MEET US SECTION*/
 
 .card-section {
-    background-color: #eee;
+    background-color: #fff;
     padding: 64px;
     grid-area: contenido-2;
     display: flex;
@@ -148,4 +149,27 @@ main {
     width: 15vw;
     border-radius: 16px;
     border: solid 4px #3882f6;
+}
+
+/* QUOTE SECTION */
+
+.quote {
+    padding: 120px 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 900;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-name {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
 }
