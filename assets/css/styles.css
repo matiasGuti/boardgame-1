@@ -158,6 +158,7 @@ main {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    grid-area: contenido-3;
 }
 
 .quote-text {
@@ -173,3 +174,50 @@ main {
     font-weight: bold;
     text-align: right;
 }
+
+/* SIGN UP SECTION*/
+
+.action {
+    width: 60%;
+    margin: 70px auto;
+    padding: 48px 0px;
+    background-color: #3882f6;
+    color: #fff;
+    grid-area: contenido-4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info h4, p{
+    margin: 0;
+}
+
+.info h4 {
+    font-size: 24px;
+}
+
+.info p {
+    font-size: 18px;
+    color:#f9faf8#e5e7eb;
+    font-weight: 100;
+}
+
+.sign-up-2 {
+    background-color: #3882f6;
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 4px;
+    width: 8vw;
+    height: 2vw;
+}
+
+/* FOOTER SECTION*/
