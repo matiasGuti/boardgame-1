@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url(../imgs/bg-wood3.jpg); */
+}
+
+
+.container {
+    /* width: 100%; */
+    /* max-width: 1000px; */
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+
+    grid-template-areas: "header"
+                         "contenido-1"
+                         "contenido-2"
+                         "contenido-3"
+                         "contenido-4"
+                         "footer";
+}
+
+/* HEADER PART*/
+
+header {
+    background-color: #1f2937;
+    color: #fff;
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 32px;
+}
+  
+a, a:hover, a:focus, a:active {
+text-decoration: none;
+color: inherit;
+}
+
+/* main {
+    background-color: #1f2937;
+    color: #fff;
+    grid-area: contenido-1;
+} */
