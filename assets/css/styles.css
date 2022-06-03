@@ -221,3 +221,12 @@ main {
 }
 
 /* FOOTER SECTION*/
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    background-color: #1f2937;
+    color: #fff;
+    line-height: 4vw;
+    font-weight: 400;
+}
