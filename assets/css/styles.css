@@ -5,13 +5,14 @@ html {
 body {
     min-height: 100%;
     font-family: 'Roboto', sans-serif;
-    /* background-image: url(../imgs/bg-wood3.jpg); */
+    background-image: url(../imgs/bg-wood3.jpg);
 }
 
 
 .container {
     /* width: 100%; */
     /* max-width: 1000px; */
+    margin: 0 auto;
     display: grid;
     grid-template-rows: repeat(6, auto);
 
@@ -35,6 +36,7 @@ header {
 
 .header-title {
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
     display: flex;
     align-items: center;
@@ -47,14 +49,65 @@ ul {
     display: flex;
     gap: 32px;
 }
-  
+
 a, a:hover, a:focus, a:active {
 text-decoration: none;
 color: inherit;
 }
 
-/* main {
+/* Main part*/
+
+main {
+    width: 65%;
+    margin: 70px auto;
+    padding: 48px 0px;
     background-color: #1f2937;
     color: #fff;
     grid-area: contenido-1;
-} */
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    /* background-color: transparent;
+    border: solid 4px white; */
+}
+
+.imagen-main img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 25vw;
+    border-radius: 4px;
+}
+
+.content {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.content h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.content p {
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content .sign-up {
+    max-width: 6vw;
+    padding: 8px 8px;
+    background-color: #3882f6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
